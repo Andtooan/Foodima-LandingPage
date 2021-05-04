@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,30900i|Os00,600,70=swap');
+
+ *{
+
+box-sizing: border-box;
+
+margin: 0px;
+
+padding: 0px;
+font-family: 'Helvetica', sans-serif;
+
+}
+
+.nav {
+
+display: inline-block;
+
+width: 100%;
+
+list-style: none;
+
+height: auto;
+   max-width: 100%;
+   
+
+
+
+}
+
+.nav h1 {
+
+display: inline-block;
+
+float: left;
+
+margin-left: 75px;
+padding-right: 150px;
+
+margin-top: 50px;
+height: auto;
+max-width: 100%;
+width: auto;
+}
+
+.nav li {
+    height: auto;
+    max-width: 100%;
+    width: auto;
+
+display: inline-block;
+
+font-size: 20px;
+
+margin-top: 55px;
+text-align: center;
+margin-left: 15px;
+
+padding-left: 20px;
+
+padding-right: 20px;
+
+}
+.nav button {
+    display: inline-block;
+    float: right;
+    margin-top: -35px;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.btn {
+
+display: inline-block;
+
+height: 40px;
+
+width: 100px;
+
+font-size: 15px;
+
+margin-left: auto;
+
+margin: 10px 0;
+
+padding-left: 20px;
+
+padding-right: 20px;
+
+background-color:black;
+
+border-style:hidden;
+            
+
+color:white;
+
+border-radius: 25px;
+margin-right: 76px;
+
+}
+
+.cajamain {
+
+display: inline-block;
+
+text-align:left;
+
+}
+
+.btn2 {
+
+display: inline-block;
+
+height: 40px;
+
+width: 100px;
+
+font-size: 15px;
+
+margin: 10px 0 ;
+
+padding-left: 20px;
+
+padding-right: 20px;
+
+border-style:hidden;
+            
+
+background-color:white;
+
+color: black;
+
+border-radius: 25px;
+
+
+}
+.btn3 {
+
+    display: inline-block;
+    
+    height: 55px;
+    
+    width: 170px;
+    
+    font-size: 15px;
+    
+    margin-left: 20px;
+    
+    margin-right: -150px;
+    
+    margin: 10px 0;
+    
+    padding-left: 20px;
+    
+    padding-right: 20px;
+    
+    background-color:black;
+
+    border-style:hidden;
+            
+    
+    color:white;
+    
+    border-radius: 25px;
+    
+    float:right;
+    margin-right: 76px;
+    
+    }
+    .btn2 {
+
+        display: inline-block;
+        
+        height: 35px;
+        
+        width: 100px;
+        
+        font-size: 15px;
+        
+        margin: 8px ;
+
+        margin-bottom: 10px;
+        
+        padding-left: 20px;
+        
+        padding-right: 20px;
+        
+        background-color:white;
+        
+        border-style:hidden;
+            
+        color: black;
+        
+        border-radius: 25px;
+        
+        }
+        .btn4 {
+        
+         
+            display: flex;
+            
+            height: 40px;
+            
+            width: 40px;
+            
+            font-size: 12px;
+
+            margin: 8px ;
+
+            margin-bottom: 10px;
+            
+             border-style:hidden;
+            
+            background-color:black;
+            
+            color:white;
+            
+            border-radius: 50%;
+            
+            float: left;
+            
+            }
+
+.contenido__imagen{
+  
+    margin-left: 75px;
+   
+}
+.contenido__imagen img  {
+   height: auto;
+   max-width: 100%;
+   width: auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   border-radius: 45px;
+}
+ 
+.aside{
+    padding-left: 35px;
+    padding-right: 25px;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+.aside ul {
+    
+    float: left;
+    margin: 50px 0px; 
+    list-style: none;
+    margin-top:75px;
+    padding-bottom: 15px;
+}
+}
+
+.aside li {
+    padding-bottom: 45px;
+    margin-bottom: 15px;
+} 
+
+.aside h2 {
+    margin: 5px 2px;
+    font-size: 30px;
+}
+.aside h3 {
+    margin-right: 32px;
+}
+.aside p {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 35px;
+    
+  
+}
+
+.filter {  
+font-weight: bold;
+font-size: 20px;
+margin-bottom: 1rem;
+}
+
+.tarjetas {
+    float: rigth;
+    margin-bottom: 100px;
+   
+}
+
+
+.caja {
+
+max-width: 400px;
+
+margin: 50px 20px;
+
+}
+
+.caja__imagen {
+
+text-align: center;
+
+padding: 20px 0;
+
+}
+
+.caja__imagen img {
+
+height: 200px;
+border-radius: 15px;
+width: auto;
+
+}
+.caja__contenido h6 {
+    float: left;
+    padding-top: 12px;
+}
+
+.caja__contenido p {
+    padding-top: 12px;
+    float: right;
+    font-size: 12px;
+    color: #888;
+
+}
+
+.footer {
+
+display: inline-block;
+
+width: 100%;
+
+list-style: none;
+
+text-align: center;
+
+
+}
+
+.footer h3 {
+    display: inline-block;
+    float: left;
+    margin-left: 70px;
+    margin-top: 6px;
+    margin-left: 75px;
+}
+
+.footer li {
+
+display: inline-block;
+
+font-size: 15px;
+
+margin-top: 20px;
+
+padding-left: 20px;
+
+padding-right: 20px;
+padding-bottom: 20px;
+
+}
+
+.flexsearch--wrapper {
+
+height: auto;
+
+width: auto;
+
+max-width: 100%;
+
+overflow: hidden;
+
+background: transparent;
+
+margin: 0;
+
+position: static;
+
+}
+
+.search{
+
+display: inline-block;
+width: 100%;
+}
+
+.flexsearch h2{
+
+    display: inline-block;
+    margin-top: 22px;
+    margin-left: -34px;
+    padding-right: 100px;
+    float: left;
+}
+.flexsearch--form {
+
+overflow: hidden;
+
+position: relative;
+
+}
+
+.flexsearch--input-wrapper {
+
+padding: 0 296px 0 0; 
+
+overflow: hidden;
+
+}
+
+.flexsearch--input {
+
+width: 100%;
+margin-left: 55px;
+
+}
+
+.flexsearch {
+
+
+display: flex;
+justify-content: space-evenly;
+margin-inline: 75px;
+
+
+}
+
+.flexsearch--input {
+
+
+box-sizing: content-box;
+
+height: 45px;
+
+width: 400px;
+
+padding: 0 10px 0 10px;
+
+border-color: #888;
+
+border-radius:10px;
+
+border-style: solid;
+
+border-width: none;
+
+background-color: #F8F8F7;
+
+margin-top: 15px;
+
+color: none;
+
+
+
+font-size: 16px;
+
+
+
+}
+
+.flexsearch--submit {
+
+position: absolute;
+
+right: 0;
+
+top: 0;
+
+display: block;
+
+width: 60px;
+
+height: 60px;
+
+padding: 0;
+
+border: none;
+
+margin-top: 2px; 
+
+margin-right: 5px; 
+
+background: transparent;
+
+color: #888;
+
+
+
+font-size: 30px;
+
+line-height: 1px;
+}
+
+.flexsearch--input:focus {
+
+outline: none;
+
+border-color: #333;
+
+}
+
+.flexsearch--input:focus.flexsearch--submit {
+
+color: #333;
+
+}
+
+.flexsearch--submit:hover {
+
+color: #333;
+
+cursor: pointer;
+
+}
+
+::-webkit-input-placeholder {
+
+color: #888;
+
+}
+
+input:-moz-placeholder {
+
+color: #bbb;;
+
+}
